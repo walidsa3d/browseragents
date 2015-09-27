@@ -3,7 +3,7 @@ import useragentdata as data
 from random import choice
 
 
-def random_useragent(browser=None, os=None):
+def random(browser=None, os=None):
     agents = data.agents
     if browser and os:
         agents = [x for x in agents if browser.lower(
@@ -14,5 +14,3 @@ def random_useragent(browser=None, os=None):
     elif os:
         agents = [x for x in agents if os.lower() in x['osName'].lower()]
     return choice(agents)['userAgent']
-
-print random_useragent()

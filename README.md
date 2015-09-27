@@ -6,7 +6,7 @@ Generates a random browser user agent
 ```
 #Installation (manual)
 ```
-$ git clone 
+$ git clone git@github.com:walidsa3d/browseragents.git 
 $ cd browseragents
 $ python setup.py install
 ```
