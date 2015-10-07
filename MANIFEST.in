@@ -1,2 +1,5 @@
 include LICENSE
 include *.md
+include AUTHORS
+include HISTORY
+recursive-include docs *

@@ -1,22 +1,18 @@
 #BrowserAgents
 Generates a random browser user agent
 
-#Installation (automatic)
+#Install (automatic)
 ```
+$ pip install browseragents
 ```
-#Installation (manual)
+#Install (manual)
 ```
 $ git clone git@github.com:walidsa3d/browseragents.git 
 $ cd browseragents
 $ python setup.py install
 ```
-#Usage
-
-#TODO
-- clean up the list of useragents: keepy only interesting keys
-- a method to parse useragents
-
 #License
+```
 The MIT License (MIT)
 
 Copyright (c) 2015 Walid Saad
@@ -38,3 +34,4 @@ AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
 LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
+```
