@@ -1,8 +1,10 @@
 Changelog
 =========
 
-%%version%% (unreleased)
-------------------------
+0.1.0 (2015-10-07)
+------------------
+
+- Fix MANIFEST.in, setup.py. [walid]
 
 - Add tests. [walid]
 

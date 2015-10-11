@@ -10,11 +10,11 @@ except ImportError:
     read_md = lambda f: open(f, 'r').read()
 
 setup(
-    name="browseragents",
-    version="0.1.0",
+    name='browseragents',
+    version="0.2.0",
     author="Walid Saad",
     author_email="walid.sa3d@gmail.com",
-    url='https://github.com/walidsa3d/browseragents',
+    url="https://github.com/walidsa3d/browseragents",
     keywords="useragents browser agent",
     description="Generate a random user agent",
     long_description=read_md('README.md'),
@@ -27,11 +27,9 @@ setup(
         'Environment :: Console',
         'Intended Audience :: End Users/Desktop',
         'License :: OSI Approved :: MIT License',
-        'Operating System :: OS Independent',
         'Natural Language :: English',
         'Operating System :: OS Independent',
         'Programming Language :: Python :: 2',
         'Topic :: Utilities'
-    ]
-
+        ]
 )
