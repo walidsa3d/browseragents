@@ -16,6 +16,18 @@ $ git clone git@github.com:walidsa3d/browseragents.git
 $ cd browseragents
 $ python setup.py install
 ```
+## Usage
+```python
+import browseragents as ba
+ba.random()
+//==> 'Opera/9.80 (X11; Linux x86_64; U; pl) Presto/2.7.62 Version/11.00'
+ba.random(browser='firefox')
+//==> 'Mozilla/5.0 (Windows NT 6.0; rv:14.0) Gecko/20100101 Firefox/14.0.1'
+ba.random(os='linux')
+//==> 'Mozilla/5.0 (Maemo; Linux armv7l; rv:10.0.1) Gecko/20100101 Firefox/10.0.1 Fennec/10.0.1'
+ba.random(browser='chrome', os='windows')
+//==> 'Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/37.0.2049.0 Safari/537.36'
+```
 # License
 ```
 The MIT License (MIT)
