@@ -1,17 +1,22 @@
-#BrowserAgents
+# BrowserAgents
+![Build](https://travis-ci.org/walidsa3d/browseragents.svg?branch=master)
+![downloads](https://img.shields.io/pypi/dm/browseragents.svg)
+![license](https://img.shields.io/pypi/l/browseragents.svg)
+![version](https://img.shields.io/pypi/v/browseragents.svg)
+
 Generates a random browser user agent
 
-#Install (automatic)
+# Install (automatic)
 ```
 $ pip install browseragents
 ```
-#Install (manual)
+# Install (manual)
 ```
 $ git clone git@github.com:walidsa3d/browseragents.git 
 $ cd browseragents
 $ python setup.py install
 ```
-#License
+# License
 ```
 The MIT License (MIT)
 

@@ -11,7 +11,7 @@ except ImportError:
 
 setup(
     name='browseragents',
-    version="0.2.0",
+    version="0.3.0",
     author="Walid Saad",
     author_email="walid.sa3d@gmail.com",
     url="https://github.com/walidsa3d/browseragents",
@@ -19,7 +19,7 @@ setup(
     description="Generate a random user agent",
     long_description=read_md('README.md'),
     license="MIT",
-    packages=find_packages,
+    packages=find_packages(),
     zip_safe=False,
     include_package_data=True,
     classifiers=[
